@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mi primera web</title>
+    <style>
+        table,th,td {border: 1px solid black}
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+    <h1>mi primer heading</h1>
+    <h2>mi segundo heading</h2>
+    <h3>mi tercer heading</h3>
+    <h4>mi cuarto heading</h4>
+    <h5>mi quinto heading</h5>
+    <h6>mi sexto heading</h6>
+    <p>hola</p>
+    <p>como estas?</p>
+    <hr>
+    <h2> titulo</h2>
+    <p> parrafo mas <span style="color:blue"><br> largo</span></p>
+    <!-- comentario no visible-->
+
+    <a target="_blank" href="https://www.google.com"> ir a google</a><br>
+    <img src="img/milanesa.webp" width="350"/>
+
+<table style="width: 500px;">
+<thead>
+    <tr>
+    <th>producto</th>
+    <th>precio</th>
+</tr>
+</thead>
+
+<tbody>
+    <tr>
+    <td>lapicera</td>
+    <td>gratis</td>
+
+</tr>
+
+<tr>
+    <td>lapiz</td>
+    <td>20$</td>
+
+</tr>
+<tr>
+    <td>cartuchera completa</td>
+    <td>200$</td>
+
+</tr>
+</tbody>
+<tfoot>
+    <td></td>
+    <td>Total: 220$</td>
+</tfoot>
+</table>
+<!--ul es lista no ordenada-->
+
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+
+    <!--ul es lista ordenada-->
+    <ol>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li value="20">elemento 3</li>
+        <li>elemento 4</li>
+
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub 1</li>
+                <li style="list-style-type: lower-alpha;">sub 2</li>
+                <li style="list-style-type: upper-roman;">sub 3</li>
+            </ol>
+
+        </li>
+    </ol>
+
+    <form action="/formulario" method="get">
+        <label for="nombre"> Nombre</label>
+        <input value="defecto" type="text" id="nombre" name="nombre" placeholder="nombre"/> <br>
+
+        <label for="apellido"> Apellido</label>
+        <input value="defecto" type="text" id="apellido" name="apellido" placeholder="apellido"/> <br>
+
+        <label for="comentario"> Comentario </label> <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">valor defecto</textarea>
+        <br>
+        <button type="button">tipo boton</button> &nbsp;&nbsp;
+        <button type="submit">tipo submit</button>&nbsp;&nbsp;
+        <button type="reset">tipo reset</button>
+        
+        
+    </form>
+</body>
+</html>
